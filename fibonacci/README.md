@@ -1,3 +1,4 @@
 ```bash
-$ gcc -o fib fib.c
+$ make
+gcc -o fib fib.c
 ```
