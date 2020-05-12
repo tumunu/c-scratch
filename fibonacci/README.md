@@ -1,3 +1,3 @@
 ```bash
-$ gcc -o fib fibc
+$ gcc -o fib fib.c
 ```
