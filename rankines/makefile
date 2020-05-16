@@ -1,5 +1,5 @@
 CC=gcc
-convert: foundation.c 
-	$(CC) -o foundation foundation.c
+convert: main.c calculations.c 
+	$(CC) -o calculations main.c calculations.c -lm
 clean:
-	rm -f foundation
+	rm -f calculations
