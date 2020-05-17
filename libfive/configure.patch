@@ -1,0 +1,11 @@
+--- configure.ac	2020-05-16 20:44:55.127348310 +1200
++++ configure_new.ac	2020-05-16 20:46:45.615801533 +1200
+@@ -90,7 +90,7 @@
+ dnl Package checks
+ PKG_PROG_PKG_CONFIG
+ PKG_CHECK_MODULES([CFG_LIBFIVE], [libfive >= 0.0.0])
+-PKG_CHECK_MODULES([CFG_GL], [gl >= 18.0.5])
++PKG_CHECK_MODULES([CFG_GL], [gl >= 1.2.0])
+ PKG_CHECK_MODULES([CFG_GLU], [glu >= 9.0.0])
+ PKG_CHECK_MODULES([CFG_GLEW], [glew >= 2.0.0])
+ 
